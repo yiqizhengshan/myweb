@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <script src="login.js"></script>
+    <title>Restaurante Deluxe - Inicio</title>
+</head>
+<body class="d-flex flex-column justify-content-between">
+    <nav class="row mx-0 px-0 navbar navbar-expand-lg navbar-light bg-light NavStyle">
+        <div class="container-fluid Opaco">
+          <a class="navbar-brand" href="index.html">Restaurante Deluxe</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contacto</a>
+              </li>
+          </div>
+          <a href="login.html" class="btn btn-primary">LogIn | SignIn</a>
+        </div>
+      </nav>
+
+    <div class="row mx-0 px-0 justify-content-center align-items-center MainStyle">
+      <div class="col-lg-4 col-sm-6" id="section">
+    
+        <main id="main" class="form-signin">
+          <form id="formulario">
+
+            <div class="row mx-0 px-0">
+              <a href="login.html" class="col-6 btn btn-secondary">LogIn</a>
+              <a href="signin.html" class="col-6 btn btn-light border-dark">SignIn</a>
+            </div>
+
+          <div class="py-3">  
+            <div class="form-floating">
+              <input type="user" class="form-control" id="Usuario" placeholder="usuario">
+              <label for="Usuario">Usuario</label>
+            </div>
+            <div class="form-floating">
+              <input type="password" class="form-control" id="Password" placeholder="min. 8 carácteres">
+              <label for="Password">Contraseña</label>
+            </div>
+
+            <div id="olvidado">
+              <label>
+                <a href="https://www.pccomponentes.com/recovery-password">He olvidado mi contraseña</a>
+              </label>
+            </div>
+          </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Acceder</button>
+          </form>
+        </main>
+      </div>
+    </div>
+
+    <footer class="row mx-0 px-0 FooterStyle">
+      <div class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pt-3 mb-3">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link px-2 text-muted">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="shop.html" class="nav-link px-2 text-muted">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a href="Contact.html" class="nav-link px-2 text-muted">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.youtube.com/" class="nav-link px-2" target="_blank">
+              <img class="py-0" src="https://i.imgur.com/7fCqOX0.png" alt="youtube_icon">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.instagram.com/" class="nav-link px-2" target="_blank">
+              <img class="py-0" src="https://i.imgur.com/Nc0hlRf.png" alt="youtube_icon">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.facebook.com/" class="nav-link px-2" target="_blank">
+              <img class="py-0" src="https://i.imgur.com/Fl06n9w.png" alt="youtube_icon">
+            </a>
+          </li> 
+        </ul>
+        <p class="text-center text-muted">© 2022 Restaurante Deluxe</p>
+      </div>
+    </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

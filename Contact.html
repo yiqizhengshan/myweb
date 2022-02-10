@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css.css" />
+
+    <title>Restaurante Deluxe - Inicio</title>
+  </head>
+  <body class="d-flex flex-column">
+    <nav
+      class="row mx-0 px-0 navbar navbar-expand-lg navbar-light bg-light NavStyle"
+    >
+      <div class="container-fluid Opaco">
+        <a class="navbar-brand" href="index.html">Restaurante Deluxe</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="shop.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Contact.html"
+                >Contacto</a
+              >
+            </li>
+          </ul>
+        </div>
+        <a href="login.html" class="btn btn-primary">LogIn | SignIn</a>
+      </div>
+    </nav>
+
+    <main class="row mx-0 px-0 justify-content-evenly PaddingBarra">
+      <div class="col-lg-6 col-sm-3" id="section">
+        <h6 class="d-flex justify-content-center">DÓNDE NOS SITUAMOS</h6>
+        <iframe
+          class="TamMapa"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.2928992410625!2d2.1111765162155915!3d41.389445079264014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498509f468895%3A0xf3ab8ba023c5cd56!2sFIB%20Facultat%20d&#39;Inform%C3%A0tica%20de%20Barcelona!5e0!3m2!1sca!2ses!4v1644286646317!5m2!1sca!2ses"
+          width="100%"
+          min
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div class="col">
+        <h6>NUESTRAS REDES</h6>
+        <ul class="nav">
+          <li class="nav-item">
+            <a href="https://www.youtube.com/" class="nav-link px-2" target="_blank">
+              <img
+                class="py-0"
+                src="https://i.imgur.com/7fCqOX0.png"
+                alt="youtube_icon"
+              />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.instagram.com/" class="nav-link px-2" target="_blank">
+              <img
+                class="py-0"
+                src="https://i.imgur.com/Nc0hlRf.png"
+                alt="youtube_icon"
+              />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.facebook.com/" class="nav-link px-2" target="_blank">
+              <img
+                class="py-0"
+                src="https://i.imgur.com/Fl06n9w.png"
+                alt="youtube_icon"
+              />
+            </a>
+          </li>
+        </ul>
+        <h6 class="PaddingArriba">INFORMACIÓN DE CONTACTO</h6>
+        <p class="my-0">Tel: (34) 99 999 99 99</p>
+        <a class="my-0" href="mailto:restaurantedeluxe@gmail.com">restaurantedeluxe@gmail.com</a>
+        <h6 class="PaddingArriba">DIRECCIÓN</h6>
+        <p class="my-0">Jordi Girona street, 1-3</p>
+        <p class="my-0">08034 Barcelona</p>
+      </div>
+    </main>
+
+    <footer class="row mx-0 px-0 FooterStyle">
+      <div class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pt-3 mb-3">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link px-2 text-muted">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="shop.html" class="nav-link px-2 text-muted">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a href="Contact.html" class="nav-link px-2 text-muted">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.youtube.com/" class="nav-link px-2" target="_blank">
+              <img
+                class="py-0"
+                src="https://i.imgur.com/7fCqOX0.png"
+                alt="youtube_icon"
+              />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.instagram.com/" class="nav-link px-2" target="_blank">
+              <img
+                class="py-0"
+                src="https://i.imgur.com/Nc0hlRf.png"
+                alt="youtube_icon"
+              />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.facebook.com/" class="nav-link px-2" target="_blank">
+              <img
+                class="py-0"
+                src="https://i.imgur.com/Fl06n9w.png"
+                alt="youtube_icon"
+              />
+            </a>
+          </li>
+        </ul>
+        <p class="text-center text-muted">© 2022 Restaurante Deluxe</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
